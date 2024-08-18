@@ -1,0 +1,31 @@
+{
+  "name": "object-property-listener",
+  "version": "1.1.0",
+  "description": "listen changes in an object's property",
+  "type": "module",
+  "types": "src/index.d.ts",
+  "module": "dist/object-property-listener.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "mocha test/objectPropertyListener.test.mjs"
+  },
+  "keywords": [
+    "reactive",
+    "listener",
+    "object"
+  ],
+  "author": "Wang Xiping",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src/index.d.ts"
+  ],
+  "volta": {
+    "node": "18.12.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "vite": "^5.4.1"
+  }
+}
