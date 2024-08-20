@@ -1,6 +1,6 @@
 {
   "name": "object-property-listener",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "listen changes in an object's property",
   "type": "module",
   "types": "src/index.d.ts",
@@ -16,6 +16,11 @@
   ],
   "author": "Wang Xiping",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knott11/object-property-listener"
+  },
+  "homepage": "https://github.com/knott11/object-property-listener",
   "files": [
     "dist",
     "src/index.d.ts"

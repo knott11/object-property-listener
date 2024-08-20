@@ -1,6 +1,6 @@
 import { expect } from 'chai'; // 引入 Chai 的 expect
 // const { expect } = require('chai')
-import { objectPropertyListener } from '../dist/object-property-listener.es.js'; // 根据实际路径引入函数
+import { objectPropertyListener } from '../dist/object-property-listener.js'; // 根据实际路径引入函数
 // const { objectPropertyListener } = require('../dist/object-property-listener.cjs.js')
 // 假设您的 objectObserver 函数保存在这个文件里  
    
